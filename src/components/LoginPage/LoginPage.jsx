@@ -21,6 +21,7 @@ const LoginPage = () => {
       console.log(response.data);
       // Aquí podrías guardar el token de sesión en el localStorage o en una cookie
       // Redireccionar a la página principal u otra página después del inicio de sesión
+      alert('Inicio de sesion exitoso');
       navigate('/');
     } catch (error) {
       console.error('Error durante el inicio de sesión:', error);
