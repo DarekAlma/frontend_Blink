@@ -1,6 +1,6 @@
 import React from "react";
 
-export const LoginPage = () => {
+const LoginPage = () => {
   return (
     <div className="background">
       <div className="Main">
@@ -13,3 +13,5 @@ export const LoginPage = () => {
     </div>
   );
 };
+
+export default LoginPage

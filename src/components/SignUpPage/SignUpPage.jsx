@@ -1,7 +1,7 @@
 import React from "react";
 import "./SignUpPage.css";
 
-export const SignUpPage = () => {
+const SignUpPage = () => {
   return (
     <div className="background">
       <div className="Main">
@@ -16,3 +16,5 @@ export const SignUpPage = () => {
     </div>
   );
 };
+
+export default SignUpPage

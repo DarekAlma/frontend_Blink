@@ -1,15 +1,22 @@
 import React from "react";
 import "./MainPage.css";
-export const MainPage = () => {
+import { Link } from 'react-router-dom';
+const MainPage = () => {
   return (
     <div className="background">
       <div className="Main">
         <div className="options">
           <div className="logo-image"></div>
-          <button>Iniciar sesión</button>
-          <button>Registrarse</button>
+          <Link to="/login">
+          <button>Iniciar Sesión</button>
+          </Link>
+          <Link to="/signin">
+          <button>Registrarte</button>
+          </Link>      
         </div>
       </div>
     </div>
   );
 };
+
+export default MainPage;
